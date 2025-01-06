@@ -20,6 +20,13 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: underline; /* Added underline */
+  cursor: pointer;
+}
+
+.App-link-selected {
+  color: #104e8b; /* Changed color to DarkSlateBlue */
+  font-weight: bold; /* Make text bold when selected */
 }
 
 .heart {
